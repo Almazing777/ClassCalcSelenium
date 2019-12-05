@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ScientificCalc" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-05T19:34:04" hostname="Almass-MacBook-Pro.local" time="2.975">
+  <properties/>
+  <testcase name="scientificCalc" classname="ScientificCalc" time="2.975"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 32381
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 05, 2019 11:34:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
