@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScientificCalc" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-06T07:39:56" hostname="Almass-MacBook-Pro.local" time="3.201">
+<testsuite name="ScientificCalc" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-06T08:53:31" hostname="Almass-MacBook-Pro.local" time="0.283">
   <properties/>
-  <testcase name="clickAllNumbers" classname="ScientificCalc" time="3.201"/>
-  <system-out><![CDATA[1
-]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 44739
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Dec 05, 2019 11:39:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="clickDegRad" classname="ScientificCalc" time="0.283"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

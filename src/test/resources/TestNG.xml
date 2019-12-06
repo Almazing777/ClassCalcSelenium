@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
 
 
-    <test name="Smoke Test">
+<suite name="SmokeTest">
+
+
+    <test name="Scientific Calc - Functionality">
         <classes>
-            <class name="ScientificCalc"/>
+            <class name="ScientificCalc">
+<!--            <methods>-->
+<!--                <include name="clickAllNumbers"/>-->
+<!--                <include name="clickPlusSign"/>-->
+<!--                <include name="clickMinusSign"/>-->
+<!--            </methods>-->
+            </class>
         </classes>
     </test>
 
