@@ -11,7 +11,7 @@ import java.util.List;
     public class ScientificCalc extends BaseTest {
 
         @Test
-        public void scientificCalc() throws InterruptedException {
+        public void clickAllNumbers() throws InterruptedException {
 
             driver.get("https://classcalc.com/scientific-calculator");
 
@@ -27,6 +27,11 @@ import java.util.List;
             action.sendKeys(Keys.NUMPAD7).build().perform();
             action.sendKeys(Keys.NUMPAD8).build().perform();
             action.sendKeys(Keys.NUMPAD9).build().perform();
+
+            WebElement iFrame = driver.findElement(By.tagName("iframe"));
+            driver.switchTo().frame(iFrame);
+            WebElement numbers = driver.findElement(By.cssSelector("[class='guppy-render']"));
+            Assert.assertEquals(true, numbers.isDisplayed());
         }
     }
         
