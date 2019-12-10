@@ -5,13 +5,19 @@
 <suite name="SmokeTest">
 
 
-    <test name="Scientific Calc - Functionality">
+    <test name="Scientific Calc - Functionality" preserve-order="true">
         <classes>
-            <class name="ScientificCalc">
+            <class name="ScientificCalc" >
 <!--            <methods>-->
 <!--                <include name="clickAllNumbers"/>-->
 <!--                <include name="clickPlusSign"/>-->
 <!--                <include name="clickMinusSign"/>-->
+<!--                <include name="clickDivision"/>-->
+<!--                <include name="clickMultiply"/>-->
+<!--                <include name="clickExponent"/>-->
+<!--                <include name="clickComma"/>-->
+<!--                <include name="clickIntegral"/>-->
+<!--                <include name="clickDegRad"/>-->
 <!--            </methods>-->
             </class>
         </classes>

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
         WebElement calculatorButtons;
 
         @Test
-        public void clickAllNumbers() throws InterruptedException {
+        public void clickAllNumbers(){
 
             //Will optimize with forloop at some point
             Actions action = new Actions(driver);
@@ -82,7 +82,7 @@ import org.testng.annotations.Test;
 
 
         public void assertDisplayed(){
-            WebElement calculatorButtons = driver.findElement(By.cssSelector("[class='editable-math guppy_active ']"));
+            calculatorButtons = driver.findElement(By.cssSelector("[class='editable-math guppy_active ']"));
             Assert.assertEquals(true, calculatorButtons.isDisplayed());
         }
 
