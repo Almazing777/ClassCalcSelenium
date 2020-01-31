@@ -4,7 +4,6 @@
 
 <suite name="SmokeTest">
 
-
     <test name="Scientific Calc - Functionality" preserve-order="true">
         <classes>
             <class name="ScientificCalc" >

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScientificCalc" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-12-06T09:21:09" hostname="Almass-MacBook-Pro.local" time="1.337">
+<testsuite name="ScientificCalc" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-31T00:13:23" hostname="Almass-MacBook-Pro.local" time="0.299">
   <properties/>
-  <testcase name="clickAllNumbers" classname="ScientificCalc" time="0.271"/>
-  <testcase name="clickDivision" classname="ScientificCalc" time="0.18"/>
-  <testcase name="clickMultiply" classname="ScientificCalc" time="0.186"/>
-  <testcase name="clickExponent" classname="ScientificCalc" time="0.14"/>
-  <testcase name="clickComma" classname="ScientificCalc" time="0.146"/>
-  <testcase name="clickIntegral" classname="ScientificCalc" time="0.156"/>
-  <testcase name="clickDegRad" classname="ScientificCalc" time="0.253"/>
+  <testcase name="clickAllNumbers" classname="ScientificCalc" time="0.299"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -14,7 +14,7 @@ public class BaseTest {
 
     public WebDriver driver;
     public static WebDriverWait wait;
-    public static WebElement iFrame;
+//    public static WebElement iFrame;
 
 
     @BeforeTest
@@ -24,8 +24,8 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 4);
-        iFrame = driver.findElement(By.tagName("iframe"));
-        driver.switchTo().frame(iFrame);
+//        iFrame = driver.findElement(By.tagName("iframe"));
+//        driver.switchTo().frame(iFrame);
     }
 
     @AfterTest
