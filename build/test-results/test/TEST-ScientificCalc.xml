@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScientificCalc" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-31T00:13:23" hostname="Almass-MacBook-Pro.local" time="0.299">
+<testsuite name="ScientificCalc" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-03T00:02:57" hostname="Almass-MacBook-Pro.local" time="0.067">
   <properties/>
-  <testcase name="clickAllNumbers" classname="ScientificCalc" time="0.299"/>
+  <testcase name="assertDisplayed" classname="ScientificCalc" time="0.067"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

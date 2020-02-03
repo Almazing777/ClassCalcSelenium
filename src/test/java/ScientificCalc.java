@@ -80,10 +80,10 @@ import org.testng.annotations.Test;
             assertDisplayed();
         }
 
-
+        @Test
         public void assertDisplayed(){
             calculatorButtons = driver.findElement(By.cssSelector("[class='editable-math guppy_active ']"));
-            Assert.assertEquals(true, calculatorButtons.isDisplayed());
+            Assert.assertTrue( calculatorButtons.isDisplayed());
         }
 
 
